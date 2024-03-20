@@ -1,0 +1,105 @@
+/* Definições gerais. */
+*{
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecalho{
+  padding: 20px 40px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background: #000;
+}
+
+.cabecalho{
+  position:fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 60px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.logo{
+  width: 200px;
+}
+.menu-lista{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0px;
+
+}
+a {
+  background: #ccc;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background: darkgoldenrod;
+  color: #fff;
+  text-decoration: none;
+  font: bold;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+/* Estlização extra. */
+
+.section-1{
+  width: 100vw ;
+  height: 250px;
+  background: lightgoldenrodyellow;
+  padding-top: 150px;
+  
+}
+.section-2{
+  width: 100vw ;
+  height: 250px;
+  background: lightsalmon;
+  
+}
+.section-3{
+  width: 100vw ;
+  height: 250px;
+  background: lightskyblue;
+  
+}
+
+.titulo{
+  text-align: center;
+}
+section{
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+/* *{
+  margin: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+.sem-ordem{
+  background: lightgoldenrodyellow;
+}
+
+.ordenada{
+  background: lightcyan;
+} */
